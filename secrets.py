@@ -1,0 +1,5 @@
+# @User
+consumer_key="XSDvtuhYLCbYLbUY0aRxh4262"
+consumer_secret="MyVUYT1IBRXFYoWCCE5Ccgd4fIp9z23JInksDdwDVCxb7LvcA0"
+access_token="1217094227831795713-kxNBgtKaIWSmKjH7RJlRUu1vorxoQM"
+access_token_secret="XVignNirl7tnQ8hNffZR0XyViZyevGJb7JmzQcZLqtffp"
