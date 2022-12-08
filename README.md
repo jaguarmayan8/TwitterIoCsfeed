@@ -24,8 +24,6 @@ $ python3 tweetfeed.py
 
 ## Some comments
 
-> This is the *core* part of the code at <a href="https://github.com/0xDanielLopez/TweetFeed">TweetFeed</a>, I have tried to keep it as simple as possible.
-> In the *official* code that I use I added some more regex, filters and whitelists as folks on Twitter use many formats to publish IOCs.
 
 > Any Issue, PR or Feedback is welcome!
 
