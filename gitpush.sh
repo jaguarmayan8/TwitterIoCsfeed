@@ -2,7 +2,16 @@
 
 #! /bin/sh
 #
-echo "Enter Message"
+# Prompt for user input
+read -p "Please enter a message: " message
+
+# Check the answer
+if [ "$message" = "First Commit" ]; then
+  echo "The message is correct!"
+else
+  echo "The message is incorrect."
+fi
+
 read message
 
 git add * 
