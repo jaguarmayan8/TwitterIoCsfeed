@@ -1,27 +1,12 @@
+#!/bin/bash
+cd /home/manu/TwitterIoCsfeed
 
+git add Output/*.csv 2>/dev/null
 
-#! /bin/sh
-#
-# Prompt for user input
-read -p "Please enter a message: " message
-
-# Check the answer
-if [ "$message" = "First Commit" ]; then
-  echo "The message is correct!"
+if git diff --cached --quiet; then
+    echo "$(date) - No changes to commit"
 else
-  echo "The message is incorrect."
+    git commit -m "Daily IOC update - $(date +'%Y-%m-%d %H:%M')"
+    git push origin main
+    echo "$(date) - Pushed to GitHub"
 fi
-
-read message
-
-git add * 
-git commit -m "${message}"
-if [-n "$(git status - porcelain)"];
-then
-	echo "IT's CLEAN"
-else
-	git status
-	echo "Pushing data to remote server!!!"
-	git push 
-fi
-

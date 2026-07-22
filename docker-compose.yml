@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  iocsfeed:
+    build: .
+    container_name: twitter-iocsfeed
+    env_file:
+      - .env
+    volumes:
+      - ./Output:/app/Output
+    restart: "no"
