@@ -1,12 +1,14 @@
 ################################################################
 # abuse.ch SSLBL SSL Certificate Blacklist (SHA1 Fingerprints) #
-# Last updated: 2026-08-11 14:38:19 UTC                        #
+# Last updated: 2026-08-11 20:22:54 UTC                        #
 #                                                              #
 # Terms Of Use: https://sslbl.abuse.ch/blacklist/              #
 # For questions please contact sslbl [at] abuse.ch             #
 ################################################################
 #
 # Listingdate,SHA1,Listingreason
+2026-08-11 20:22:54,64ba3430f767ced74b2828509a653187e9553971,Vidar C&C
+2026-08-11 20:22:25,940df23eebede1e1e33a4c521ba05b4b37d04d68,Vidar C&C
 2026-08-11 14:38:19,ffc71a7ba96b8801333ea2b9e7cd05d4cc2f718d,Malware C&C
 2026-08-11 12:31:21,95fcb5ff7bd5e1d06b1e585af4ba3ceb95f01164,Vidar C&C
 2026-08-11 12:30:11,1674f349ec288a75ac123a1752d433a21ceddcef,Vidar C&C
@@ -10399,4 +10401,4 @@
 2014-05-04 08:10:31,86d6aade4ba1414a91b1e7fb3cdd7d503692f410,Shylock C&C
 2014-05-04 08:10:26,5afc236d1dd00c9c45457b75226b501b815a59c7,Shylock C&C
 2014-05-04 08:09:56,b08a4939fb88f375a2757eaddc47b1fb8b554439,Shylock C&C
-# END (10392) entries
+# END (10394) entries
