@@ -1,12 +1,21 @@
 ################################################################
 # abuse.ch SSLBL SSL Certificate Blacklist (SHA1 Fingerprints) #
-# Last updated: 2026-09-22 08:37:04 UTC                        #
+# Last updated: 2026-09-22 17:54:51 UTC                        #
 #                                                              #
 # Terms Of Use: https://sslbl.abuse.ch/blacklist/              #
 # For questions please contact sslbl [at] abuse.ch             #
 ################################################################
 #
 # Listingdate,SHA1,Listingreason
+2026-09-22 17:54:51,2e57d619d591a232e8f11d850822531b3bda29a4,Malware C&C
+2026-09-22 17:54:49,e5c15371e2640fdbbed13f9a3d4128f84fe32c9b,Malware C&C
+2026-09-22 17:53:35,deb92b7c7be8b03d76c63ea02419b82e6e573f97,Malware C&C
+2026-09-22 17:50:59,0f3b052836a1071f9f929ad3516358185d5e078e,Malware C&C
+2026-09-22 14:54:39,a88b5b3ce1ac1236c2739396319f187df0f601f3,Vidar C&C
+2026-09-22 14:44:46,988b6a8c9ba5ac709116cdd1950189d031d508a6,OffLoader C&C
+2026-09-22 14:44:20,4eff1368d9a8d33c6d638153e20b4a5ee7e541a7,PureRAT C&C
+2026-09-22 14:41:10,ac6a2ca4f02ca05caa9149b46edb37fc84344d37,PureRAT C&C
+2026-09-22 14:38:09,a9952734015af670f5fc0a62357e4cf5b16ac0ce,SeroRAT C&C
 2026-09-22 08:37:04,7e5a601afffb3c09f07faa53d0aa0e138444f02a,PureLogsStealer C&C
 2026-09-22 08:36:21,a7a833e979de1f4883108c9756fac1100dcc6fd8,PureRAT C&C
 2026-09-22 05:47:00,cf52101dfe4779d6d145fe111b5bd69043c0a667,Vidar C&C
@@ -10774,4 +10783,4 @@
 2014-05-04 08:10:31,86d6aade4ba1414a91b1e7fb3cdd7d503692f410,Shylock C&C
 2014-05-04 08:10:26,5afc236d1dd00c9c45457b75226b501b815a59c7,Shylock C&C
 2014-05-04 08:09:56,b08a4939fb88f375a2757eaddc47b1fb8b554439,Shylock C&C
-# END (10767) entries
+# END (10776) entries
